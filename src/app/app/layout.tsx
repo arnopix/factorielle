@@ -2,12 +2,14 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, FileText, Users, Settings, ArrowLeft } from 'lucide-react';
+import { LayoutDashboard, FileText, Users, Settings, ArrowLeft, BarChart3, Rocket } from 'lucide-react';
 
 const navItems = [
   { href: '/app', label: 'Tableau de bord', icon: LayoutDashboard },
   { href: '/app/invoices', label: 'Factures & Devis', icon: FileText },
   { href: '/app/clients', label: 'Clients', icon: Users },
+  { href: '/app/reports', label: 'Rapports', icon: BarChart3 },
+  { href: '/app/growth', label: 'Go-to-Market', icon: Rocket },
   { href: '/app/settings', label: 'Paramètres', icon: Settings },
 ];
 
